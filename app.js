@@ -20,6 +20,8 @@ function calculator(a,b,cb) {
 	return cb(a,b);
 }
 
+function noop(){};
+
 module.exports = {
 	add,
 	subtract,
